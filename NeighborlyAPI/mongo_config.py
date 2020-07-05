@@ -1,0 +1,6 @@
+
+class MongoConfig(object):
+    MONGO_CONNECTION_STRING = ""
+    MONGO_DATABASE = ""
+    ADVERTISEMENTS_COLLECTION = ""
+    POSTS_COLLECTION = ""

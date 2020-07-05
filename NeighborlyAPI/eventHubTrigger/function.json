@@ -1,0 +1,13 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "event",
+      "direction": "in",
+	  "eventHubName": "azure-event-hub-1",
+	  "connection": "Endpoint=sb://azure-event-hub-ns.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Axexe3trLcwfzkpWAmkJ3sj1e8RVwL7mFARfn6apTBQ="
+    }
+  ]
+}
+
